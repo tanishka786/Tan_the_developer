@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tanishka Das | Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="/assets/logo.png" />
+        <script
+            src="https://kit.fontawesome.com/3f50e1da80.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <!-- adding pages -->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <a href="/"
+                        ><img src="/assets/tanlogo1.png" class="logo"
+                    /></a>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i
+                            class="fa-solid fa-square-xmark"
+                            onclick="closemenu()"
+                        ></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <!------------------------------------------------------- home page------------------------------------------------------------------------------------------>
+                <div class="header-text">
+                    <p>Aspiring computer engineering student</p>
+                    <!--  with a passion for web development seeking to blend technical expertise with creative solutions in the digital realm -->
+                    <h1>Hi, I'm <span>Tanishka</span> Das<br />From India</h1>
+                </div>
+            </div>
+        </div>
+
+        <!----------------------------------------------------------------------------------about section----------------------------------------------------------------------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="aboutcol1">
+                        <img src="/assets/love-coding.jpg" />
+                    </div>
+                    <div class="aboutcol2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>
+                            Hello! I'm Tanishka Jayesh Das, a passionate and
+                            motivated engineering student with a burning desire
+                            to innovate and make a positive impact through
+                            technology. Currently pursuing a Computer
+                            Engineering degree at Vidyavardhini's College Of
+                            Engineering And Technology, I am dedicated to
+                            harnessing the power of engineering to solve
+                            real-world challenges.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p
+                                class="tab-links active-link"
+                                onclick="opentab('skills')"
+                            >
+                                Skills
+                            </p>
+                            <p
+                                class="tab-links"
+                                onclick="opentab('experience')"
+                            >
+                                Experience
+                            </p>
+                            <p class="tab-links" onclick="opentab('education')">
+                                Education
+                            </p>
+                        </div>
+
+                        <!-- skills -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Web development</span><br />Designing
+                                    Web Interface
+                                </li>
+                                <li>
+                                    <span>Project Presentation</span
+                                    ><br />Effectively conveying complex
+                                    information, ideas, and outcomes in a clear,
+                                    compelling, and organized manner to diverse
+                                    audiences.
+                                </li>
+                                <li>
+                                    <span>UI/UX Designing</span><br />Aims to
+                                    create a positive user experience that
+                                    encourages customers to stick with a brand
+                                    or product.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Experience -->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>2023 - Current</span><br />Corporate
+                                    Co-ordinator at Microsoft Learn Students
+                                    Club - Vcet
+                                </li>
+                                <li>
+                                    <span>2023</span><br />Web Development
+                                    Intern at Prodigy Infotech
+                                </li>
+                                <li>
+                                    <span>2023</span><br />Web Development
+                                    Intern at Codsoft
+                                </li>
+                                <li>
+                                    <span>2023</span><br />Web Development
+                                    Intern at Bharat Intern
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Education -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2022 - Present</span><br />Pursuing
+                                    Bachelor's in Computer Engineering : VCET,
+                                    Vasai (Mumbai University)
+                                </li>
+                                <li>
+                                    <span>2022</span><br />Higher Secondary
+                                    Education : Mehernosh Junior College
+                                    (Maharashtra State Board)
+                                </li>
+                                <li>
+                                    <span>2020</span><br />Secondary Educaation
+                                    : MBBI Edu Academy (Maharashtra State Board)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------services--------------------------------------------------------------------->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Designing</h2>
+                        <p>
+                            Web designing is the process of planning,
+                            conceptualizing, and implementing the plan for
+                            designing a website in a way that is functional and
+                            offers a good user experience.
+                        </p>
+                        <a href="https://github.com/tanishka786" target="_blank"
+                            >Learn more</a
+                        >
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Designing</h2>
+                        <p>
+                            UI/UX design aims to create a positive user
+                            experience that encourages customers to stick with a
+                            brand or product. While a UX Designer decides how
+                            the user interface works, the UI designer decides
+                            how the user interface looks.
+                        </p>
+                        <a href="https://github.com/tanishka786" target="_blank"
+                            >Learn more</a
+                        >
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h2>GAME Development</h2>
+                        <p>
+                            HTML, CSS, and JavaScript can be good for game
+                            development, especially because games made with
+                            these technologies can be played on almost all
+                            computing devices.
+                        </p>
+                        <a href="https://github.com/tanishka786" target="_blank"
+                            >Learn more</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------------------------------------------------------------------portfolio------------------------------------------------------------------>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="/assets/work1.png" />
+                        <div class="layer">
+                            <h3>Landing page</h3>
+                            <p>
+                                Discover what "The culinary genius" is with this
+                                landing page made using HTML, CSS, and JS.
+                            </p>
+                            <a
+                                href="https://codsoft-02-the-culinary-genius.netlify.app/"
+                                target="_blank"
+                                ><i class="fa-solid fa-up-right-from-square"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="/assets/work5.jpg" />
+                        <div class="layer">
+                            <h3>Weather app</h3>
+                            <p>
+                                The Weather app gets data from a free public API
+                                and shows the weather as per the location given
+                                as input.
+                            </p>
+                            <a
+                                href="https://prodigy-wd-05-weather-app.netlify.app/"
+                                target="_blank"
+                                ><i class="fa-solid fa-up-right-from-square"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="/assets/work6.jpg" />
+                        <div class="layer">
+                            <h3>Tic Tac Toe</h3>
+                            <p>
+                                The tic tac toe is made up of HTML, CSS, JS
+                                allows 2 users to play together or you can also
+                                play against the computer.
+                            </p>
+                            <a
+                                href="https://prodigy-wd-03-tic-tac-toe.netlify.app/"
+                                target="_blank"
+                                ><i class="fa-solid fa-up-right-from-square"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+                <a
+                    href="https://github.com/tanishka786"
+                    target="_blank"
+                    class="btn"
+                    >See more</a
+                >
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------------------Contact----------------------------------------------------------------------------------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p>
+                            <i class="fa-regular fa-envelope"></i
+                            >tanishkajdas.ce@gmail.com
+                        </p>
+                        <div class="social-icons">
+                            <a
+                                href="https://github.com/tanishka786"
+                                target="_blank"
+                                ><i class="fa-brands fa-square-github"></i
+                            ></a>
+                            <a
+                                href="https://www.linkedin.com/in/tanishka-das-ce"
+                                target="_blank"
+                                ><i class="fa-brands fa-linkedin"></i
+                            ></a>
+                        </div>
+                        <a
+                            href="./assets/Tanishka Das - resume.pdf"
+                            download
+                            class="btn btn2"
+                            >Download Resume <i class="fa-solid fa-download"></i
+                        ></a>
+                    </div>
+
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet" id="gform">
+                            <input
+                                type="text"
+                                name="Name"
+                                placeholder="Full name"
+                                required
+                            />
+                            <input
+                                type="email"
+                                name="Email"
+                                placeholder="Email"
+                                required
+                            />
+                            <textarea
+                                name="Message"
+                                rows="6"
+                                placeholder="Please leave your message here"
+                            ></textarea>
+                            <button
+                                type="submit"
+                                class="btn btn2"
+                                id="gform-submit"
+                            >
+                                Submit
+                            </button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------------------------------------------------------Copyright part------------------------------------------------------------------------>
+        <div class="copyright">
+            <p>
+                Copyright &copy; Tanishka. Made with Immersed
+                <i class="fa-solid fa-heart"></i> love for coding by
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                Tan-the-developer <i class="fa-regular fa-hand-peace"></i>
+            </p>
+        </div>
+        <!-- Javascript  -->
+        <script src="script.js"></script>
+    </body>
+
+    <footer></footer>
+</html>
